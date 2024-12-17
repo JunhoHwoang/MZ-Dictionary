@@ -1,0 +1,77 @@
+[
+    {
+      "term": "ウケる",
+      "lists": [
+        {
+            "_id": "64f8d1b2e6d6c920dc01a4f1",
+            "meanings": {
+                "Japanese": "面白い、笑える",
+                "Korean": "재미있다, 웃기다"
+            },
+            "examples" :{
+              "Japanese": "あの話、ウケる！",
+              "Korean": "그 이야기가 진짜 웃겨!"
+            },
+            "createdBy": "64f8d1b2e6d6c920dc01a4e3",
+            "likes": 42,
+            "dislikes": 3,
+            "createdAt": "2024-12-16T10:30:00Z"
+        },
+        {  
+            "_id": "64f8d1b2e6d6c920dc01a4f1",
+            "meanings": {
+                "Japanese": "おいしい",
+                "Korean": "맛있다"
+            },
+            "examples" :{
+                "Japanese": "この飯、ウケる！",
+                "Korean": "이 밥 맛있다!"
+            },
+            "createdBy": "64f8d1b2e6d6c920dc01a4e4",
+            "likes": 3,
+            "dislikes": 20,
+            "createdAt": "2024-12-20T10:30:00Z"
+        }
+      ],
+      "language": "Japanese"
+    },
+    {
+      "term": "갑분싸",
+      "lists" : [{
+        "_id": "64f8d1b2e6d6c920dc01a4f2",
+        "meanings": {
+            "Japanese": "突然場の雰囲気が静まること",
+            "Korean": "갑자기 분위기가 싸해지다"
+        },
+        "examples" :{
+          "Japanese": "その一言で場が갑분싸になった。",
+          "Korean": "그 말 한마디에 분위기가 갑분싸 됐어."
+        },
+        "createdBy": "64f8d1b2e6d6c920dc01a4e4",
+        "likes": 56,
+        "dislikes": 5,
+        "createdAt": "2024-12-15T15:45:00Z"
+    }],
+      "language": "Korean"
+    },
+    {
+      "term": "チル",
+      "lists" : [{
+        "_id": "64f8d1b2e6d6c920dc01a4f3",
+        "meanings": {
+            "Japanese": "リラックスする、のんびりする",
+            "Korean": "릴랙스하다, 편히 쉬다"
+        },
+        "examples" :{
+          "Japanese": "今日は家でチルしよう。",
+          "Korean": "오늘은 집에서 편히 쉬자."
+        },
+        "createdBy": "64f8d1b2e6d6c920dc01a4e3",
+        "likes": 30,
+        "dislikes": 1,
+        "createdAt": "2024-12-14T08:20:00Z"
+    }],
+      "language": "Japanese"
+    }
+  ]
+  

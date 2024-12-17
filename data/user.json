@@ -1,0 +1,26 @@
+[
+    {
+      "_id": "64f8d1b2e6d6c920dc01a4e3",
+      "username": "kawaiifan",
+      "email": "kawaiifan@example.com",
+      "password": "$2b$10$abcdefghijklmnopqrstuvwxyz123456",
+      "slangsCreated": [
+        "64f8d1b2e6d6c920dc01a4f1",
+        "64f8d1b2e6d6c920dc01a4f3"
+      ],
+      "createdAt": "2024-12-10T14:00:00Z",
+      "updatedAt": "2024-12-12T16:30:00Z"
+    },
+    {
+      "_id": "64f8d1b2e6d6c920dc01a4e4",
+      "username": "hangulfanatic",
+      "email": "hangulfanatic@example.com",
+      "password": "$2b$10$abcdefghijklmnopqrstuvwxyz123456", 
+      "slangsCreated": [
+        "64f8d1b2e6d6c920dc01a4f2"
+      ],
+      "createdAt": "2024-12-09T09:45:00Z",
+      "updatedAt": "2024-12-11T11:15:00Z"
+    }
+  ]
+  
