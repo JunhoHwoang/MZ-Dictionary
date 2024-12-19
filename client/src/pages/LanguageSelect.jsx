@@ -1,29 +1,36 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { Languages } from 'lucide-react';
+import { Button } from "@/components/ui/button";
+import { Languages } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuRadioGroup,
   DropdownMenuRadioItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu";
 
 export function LanguageSelect({ language, setLanguage }) {
-
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline"><Languages /></Button>
+        <Button variant="outline">
+          <Languages />
+        </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56">
-        <DropdownMenuRadioGroup value={language} onValueChange={setLanguage}>
+        <DropdownMenuRadioGroup
+          value={language}
+          onValueChange={(value) => {
+            if (typeof value === "string") {
+              setLanguage(value);
+            }
+          }}
+        >
           <DropdownMenuRadioItem value="Korean">한국어</DropdownMenuRadioItem>
           <DropdownMenuRadioItem value="Japanese">日本語</DropdownMenuRadioItem>
         </DropdownMenuRadioGroup>
       </DropdownMenuContent>
     </DropdownMenu>
-  )
+  );
 }
-

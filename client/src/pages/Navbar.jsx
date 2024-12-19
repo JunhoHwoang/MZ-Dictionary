@@ -1,8 +1,9 @@
 import { LanguageSelect } from "./LanguageSelect";
 export default function Navbar({language, setLanguage}) {
+  console.log(language);
   return (
     <div className="bg- shadow-sm">
-      <div className="max-w-6xl flex justify-between items-center mx-auto p-4">
+      <div className="max-w-5xl flex justify-between items-center mx-auto p-4">
         <div className="flex items-center">
           <a href="/" className="text-3xl">
             Logo
